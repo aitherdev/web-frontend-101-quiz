@@ -4,6 +4,6 @@
 
 ### Instruction
 
-You will be ask for submit your answer by submitting `pull request` from your frok.
+You will be ask for submit your answer by submitting `pull request` from your fork.
 
 You may use any frameworks or pure JavaScript, HTML, CSS
