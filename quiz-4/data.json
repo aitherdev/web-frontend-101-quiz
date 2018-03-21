@@ -1,0 +1,74 @@
+{
+  "column1": [
+    {
+      "content": "This is the first news"
+    },
+    {
+      "content": "Second news in column 1"
+    },
+    {
+      "content": "News 3 in column 1"
+    },
+    {
+      "content": "News 4 in column 1"
+    },
+    {
+      "content": "News 5 in column 1"
+    },
+    {
+      "content": "News 6 in column 1"
+    },
+    {
+      "content": "News 7 in column 1"
+    },
+    {
+      "content": "News 8 in column 1"
+    },
+    {
+      "content": "News 9 in column 1"
+    },
+    {
+      "content": "News 10 in column 1"
+    },
+    {
+      "content": "News 11 in column 1"
+    },
+    {
+      "content": "News 12 in column 1"
+    },
+    {
+      "content": "News 13 in column 1"
+    },
+    {
+      "content": "News 14 in column 1"
+    },
+    {
+      "content": "News 15 in column 1"
+    },
+    {
+      "content": "News 16 in column 1"
+    },
+    {
+      "content": "News 17 in column 1"
+    },
+    {
+      "content": "News 18 in column 1"
+    }
+  ],
+  "column2": [
+    {
+      "content": "Is it workable?"
+    },
+    {
+      "content": "Am I in column 2?"
+    },
+    {
+      "content": "It seems work."
+    }
+  ],
+  "column3": [
+    {
+      "content": "You will need to handle this similar cases at your feature if you would like to code. Web development usually handle JSON data, etc."
+    }
+  ]
+}
