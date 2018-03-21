@@ -1,5 +1,4 @@
 # Quiz - 2
-===============
 
 Continue the web page you develop from quiz-1. Now adding some spaces for those columns and boxes.
 

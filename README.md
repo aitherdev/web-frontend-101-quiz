@@ -1,5 +1,4 @@
 # Web Front-end Simple Quiz
-=============================
 
 ## Aither Entertainment Ltd.
 

@@ -1,5 +1,4 @@
 # Quiz - 3
-===============
 
 Let's go on. In this quiz, boxes become more and more.
 

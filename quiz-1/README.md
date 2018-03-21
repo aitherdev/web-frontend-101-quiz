@@ -1,5 +1,4 @@
 # Quiz - 1
-===============
 
 Please create a responsive layout with 3 columns and each column contains a few boxes.
 
