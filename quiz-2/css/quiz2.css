@@ -1,0 +1,39 @@
+
+.first {
+
+	border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+  	width: 200px;
+  	height: 100px;
+	margin: 1rem;
+
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+}
+.second {
+
+	border-style: solid;
+    border-width: 2px;
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin: 1rem;
+
+	text-align: center;
+	padding: 30px 0px 0px 0px;
+
+}
+.third {
+
+	border-style: solid;
+    border-width: 2px;
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	margin: 1rem;
+
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+
+}

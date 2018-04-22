@@ -1,0 +1,233 @@
+<html>
+<head>
+<meta content="index/html; charset=utf-8">
+<title>Quiz 4</title>
+<link href="css/quiz4.css" rel="stylesheet" type="text/css">
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+
+	$.getJSON('data.json', function(data) {
+		//alert(data.column1.length);
+		var a = 0;
+		var b = 0;
+		var c = 0;
+
+		var output = "<table border='1'>" + "<div class=\"scroll\">";
+
+		for(i=1;i<=18;i++){
+
+	 		output = output + "<tr>";
+
+	 		if(a < data.column1.length){
+				output = output + "<td>" + "<div class=\"first\">" + data.column1[a].content + "</div>" + "</td>";
+				//output = output + "<td>" + data.column1[a].content  + "</td>";
+				a++;
+	 		}
+	 		if(b < data.column2.length){
+	 			output = output + "<td>" + "<div class=\"second\">" + data.column2[b].content + "</div>" + "</td>";
+				//output = output + "<td>" + data.column2[b].content + "</td>";
+				b++;
+			}
+			if(c < data.column3.length){
+				output = output + "<td>" + "<div class=\"third\">" + data.column3[c].content + "</div>" + "</td>";
+				//output = output + "<td>" + data.column3[c].content + "</td>";
+				c++;
+			}
+	  		output = output + "</tr>";
+	  		}
+		
+			output = output + "</div>"+ "</table>";
+
+			document.write(output);
+	});
+
+
+</script>
+</head>
+
+<body>
+
+<!--
+<table border="1">
+  <tr>
+    <th>
+    <div class="scroll">
+	    <div class="first">
+	   		<p>I am the first column #1</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #2</p>
+	    </div>
+	    <div class="first">
+	    	<p>I am the first column #3</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #4</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #5</p>
+	    </div>
+
+
+	    <div class="first">
+	    	<p>I am the first column #6</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #7</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #8</p>
+	    </div>
+	    <div class="first">
+	    	<p>I am the first column #9</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #10</p>
+	    </div>
+
+
+	    <div class="first">
+	   		<p>I am the first column #11</p>
+	    </div>
+	    <div class="first">
+	    	<p>I am the first column #12</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #13</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #14</p>
+	    </div>
+	    <div class="first">
+	    	<p>I am the first column #15</p>
+	    </div>
+
+
+	    <div class="first">
+	   		<p>I am the first column #16</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #17</p>
+	    </div>
+	    <div class="first">
+	    	<p>I am the first column #18</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #19</p>
+	    </div>
+	    <div class="first">
+	   		<p>I am the first column #20</p>
+	    </div>
+	   </div>
+    </th>
+
+    <th>
+    <div class="scroll">
+    	<div class="second">
+	    	<p>I am the second column #1</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #2</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #3</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #4</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #5</p>
+	    </div>
+
+	    <div class="second">
+	    	<p>I am the second column #6</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #7</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #8</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #9</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #10</p>
+	    </div>
+
+	    <div class="second">
+	    	<p>I am the second column #11</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #12</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #13</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #14</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #15</p>
+	    </div>
+
+	    <div class="second">
+	    	<p>I am the second column #16</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #17</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #18</p>
+	    </div>
+	    <div class="second">
+	   		<p>I am the second column #19</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #20</p>
+	    </div>
+
+	    <div class="second">
+	   		<p>I am the second column #21</p>
+	    </div>
+	    <div class="second">
+	    	<p>I am the second column #22</p>
+	    </div>
+	   </div>
+    </th>
+
+    
+    <th>
+     <div class="scroll">
+		<div class="third">
+	    	<p>I am the last column #1</p>
+	    </div>
+	    <div class="third">
+	    	<p>I am the last column #2</p>
+	    </div>
+	    <div class="third">
+	    	<p>I am the last column #3</p>
+	    </div>
+	    <div class="third">
+	    	<p>I am the last column #4</p>
+	    </div>
+	    <div class="third">
+	    	<p>I am the last column #5</p>
+	    </div>
+	    <div class="third">
+	    	<p>I am the last column #6</p>
+	    </div>
+	    <div class="third">
+	    	<p>I am the last column #7</p>
+	    </div>
+	    </div>
+    </th>
+  </tr>
+</table>
+-->
+</body>
+</html>
