@@ -1,0 +1,30 @@
+
+.first {
+	background-color: red;
+	border-style: solid;
+    border-width: 2px;
+
+    display: inline-block;
+  	width: 200px;
+  	height: 100px;
+}
+.second {
+	background-color: blue;
+	border-style: solid;
+    border-width: 2px;
+
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+
+}
+.third {
+	background-color: green;
+	border-style: solid;
+    border-width: 2px;
+
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+
+}
